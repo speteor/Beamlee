@@ -1,0 +1,116 @@
+#main-splash{
+	background:url('../img/assets/backgrounds/splash_bg.png') no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	z-index: -10;
+
+	
+}
+
+#whitespace{
+	background: white;
+	padding: 50px;
+	width: 800px;
+	margin: 130px auto 0 auto;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	min-height: 300px;
+}
+
+#whitespace h1{
+	
+	font-weight: 100;
+	color: #3877b8;
+	font-size:80px;
+	margin: 0;
+}
+
+#whitespace strong{
+	font-weight: 400;
+}
+
+#whitespace img{
+	width: 800px;
+	margin-bottom: 15px;
+}
+
+#whitespace h2{
+	font-weight: 100;
+	color: #3877b8;
+	font-size: 42px;
+	margin: 5px 0 15px 5px;
+}
+
+a.get-started-button{
+	font-size: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 185px;
+	padding-right: 309px;
+	font-weight: 300;
+	background:url('../img/assets/icons/get-started-button.png') no-repeat;
+	background-size: cover;
+	color: white;
+	text-decoration: none;
+	margin-left: 5px;
+	
+}
+
+#whitespace img.signin-image{
+	width: 250px;
+	height: 100px;
+	background: #3877b8;
+	
+}
+#whitespace img.signin-image:hover{
+	background: #2667ab;
+}
+#whitespace span{
+	margin-left: 10px;
+	color: #3877b8;
+	font-size: 22px;
+	margin-bottom: 20px;
+	
+}
+.signup-form{
+	width: 800px;
+}
+.acc-col{
+	margin: 10px;
+	float: left;
+	height: 250px;
+	width: 250px;
+}
+
+.other-col{
+	margin: 10px;
+	float: left;
+	width: 200px;
+}
+
+.other-col input[type="text"]{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 22px;
+	padding: 5px 10px;
+	color: #aaa;
+	height: 50px;
+	width: 200px;
+	border: 1px solid #9cbddf;
+}
+.other-col input[type="submit"]{
+	height: 100px;
+	background: #3877b8;
+	width: 222px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	margin-top: 58px;
+	border: none;
+}
+.other-col input:focus{
+	outline: none;
+}

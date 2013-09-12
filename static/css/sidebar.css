@@ -1,0 +1,181 @@
+#sidebar
+{
+	background:#e2ebf5;
+	
+	min-height:100%;
+	padding-bottom: 50px;
+	width:276.5px;
+	position:fixed;
+	z-index:1;
+	box-shadow:inset 1px 4px 9px -6px;
+}
+
+.profile-area
+{
+	height:110px;
+	width:265px;
+	position:relative;
+	margin:100px 0 0 10px;
+}
+
+.sidebar-picture-wrapper
+{
+	width:104px;
+	height:104px;
+	float:left;
+	border:2px solid #d5e2f1;
+}
+
+.sidebar-picture-wrapper img
+{
+	width:100px;
+	height:100px;
+	border:2px solid #eff4fb;
+}
+
+.profile-text
+{
+	float:left;
+	font-family:Roboto, sans-serif;
+	font-weight:100;
+	width:140px;
+	margin:25px 0 0 15px;
+}
+
+.profile-text span
+{
+	font-size:20px;
+}
+
+.profile-text strong
+{
+	font-weight:300;
+}
+
+.profile-text a
+{
+	font-size:14px;
+	text-decoration:none;
+	color:#000;
+}
+
+.post-section
+{
+	width:265px;
+	position:relative;
+	font-family:Roboto, sans-serif;
+	margin:0;
+}
+
+.post-section h2
+{
+	margin-top:15px;
+	margin-left: 12px;
+	color:#3877b8;
+	font-weight:300;
+	font-size:25px;
+}
+
+.post-source
+{
+	margin-bottom:10px;
+	cursor:pointer;
+}
+
+.post-source img
+{
+	vertical-align:middle;
+	background: #A2BEDE;
+	padding: 5px 13px;
+}
+
+.post-source img:hover{
+	background: #82A6CF;
+	
+}
+
+.post-source img:hover + .postbox{
+	background: #82a6cf;
+}
+
+.post-source img:focus > .post-source img:hover{
+	background: #a2bede;
+}
+
+
+.post-source span
+{
+	color:#3877b8;
+	font-size:20px;
+	margin-left:10px;
+	
+	font-weight: 300;
+}
+
+
+.postbox textarea
+{
+    -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+	background:#fff;
+	resize:none;
+	font-family:Roboto, sans-serif;
+	color:#777;
+	font-size:16px;
+	width:210px;
+	height: 70px;
+	margin-left:20px;
+	margin-top:0px;
+	padding:10px;
+	border: none;
+}
+
+
+
+.postbox textarea:focus + .post-source img{
+	background: #82a6cf;
+}
+.postbox
+{
+	height:0;
+	width: 276px;
+	
+	background: #a2bede;
+	overflow:hidden;
+	-webkit-transition:height .2s;
+	-moz-transition:height .2s;
+}
+
+.postbox input[type=submit]
+{
+	width:230px;
+	height:40px;
+	background:#5685BA;
+	border:none;
+	font-family:Roboto, sans-serif;
+	font-weight:300;
+	color:#FFF;
+	font-size:20px;
+	cursor:pointer;
+	margin-left:20px;
+}
+
+.postbox input[type=submit]:hover
+{
+	background:#497AB3;
+}
+
+.post-source img:focus,.postbox textarea:focus
+{
+	outline:none;
+}
+
+.post-source img:focus + .postbox,.postbox:hover,.postbox textarea:focus + .postbox
+{
+	margin-bottom:20px;
+	padding: 5px 0;
+	
+	height: 145px;
+}
